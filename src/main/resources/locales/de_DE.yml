@@ -1,0 +1,43 @@
+# PLAYER NO PERMISSIONS
+player-noperm: §cDu hast keine Berechtigung!
+
+# PLAYER NOT ONLINE OR HAS ISLAND
+player-offline: §c{0} ist nicht online!
+player-offline-island: §c{0} ist nicht online oder hat keine Insel!
+
+# ISLAND CREATE
+player-already-have-island: §cDu hast bereits eine Insel!
+
+# ISLAND HOME
+player-no-island: §cDu hast keine Insel!
+player-teleport-island: §aTeleportiere zur Insel...
+
+# ISLAND SETHOME
+sethome-out-island: §cDu kannst dein Zuhause nicht außerhalb deiner Insel platzieren.
+sethome-success: §aNeues Zuhause erfolgreich gesetzt.
+
+# ISLAND INVITE
+player-already-invited: §c{0} hat {1} bereits eingeladen!
+player-already-on-island: §c{0} ist bereits auf deiner Insel!
+
+# ISLAND INVITE ACCEPT
+player-join-island: §a{0} ist deiner Insel beigetreten.
+player-join-island-success: §aDu bist der Insel von {0} beigetreten.
+player-no-invited: §c{0} hat dich nie auf seine Insel eingeladen!
+
+# ISLAND INVITE DENY
+player-decline-invitation: §cDu hast die Einladung zur Insel von {0} abgelehnt.
+player-decline-your-invitation: §c{0} hat deine Einladung abgelehnt.
+
+# ISLAND VISIT
+player-visit-island: §aTeleportiere zur Insel von {0}...
+
+player-no-owner: §cDu bist nicht der Besitzer dieser Insel!
+player-leave-island: §aDu hast die Insel verlassen.
+
+# OTHER ISLAND BREAK BLOCKS
+player-break: §cDu kannst keinen Block auf der Insel anderer Spieler zerstören!
+player-place: §cDu kannst keinen Block auf der Insel anderer Spieler platzieren!
+
+# GLOBAL
+invalid-syntax: §cFalsche Syntax, benutze {0}.

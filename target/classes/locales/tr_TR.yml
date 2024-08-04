@@ -1,0 +1,43 @@
+# PLAYER NO PERMISSIONS
+player-noperm: §cİzniniz yok!
+
+# PLAYER NOT ONLINE OR HAS ISLAND
+player-offline: §c{0} çevrimdışı!
+player-offline-island: §c{0} çevrimdışı veya adası yok!
+
+# ISLAND CREATE
+player-already-have-island: §cZaten bir adaya sahipsiniz!
+
+# ISLAND HOME
+player-no-island: §cBir adaya sahip değilsiniz!
+player-teleport-island: §aAdaya ışınlanılıyor...
+
+# ISLAND SETHOME
+sethome-out-island: §cEvini adanın dışında yerleştiremezsin.
+sethome-success: §aYeni ev başarıyla ayarlandı.
+
+# ISLAND INVITE
+player-already-invited: §c{0} zaten {1}'i davet etti!
+player-already-on-island: §c{0} zaten adanızda!
+
+# ISLAND INVITE ACCEPT
+player-join-island: §a{0} adanıza katıldı.
+player-join-island-success: §a{0}'ın adasına katıldınız.
+player-no-invited: §c{0} seni adasına hiç davet etmedi!
+
+# ISLAND INVITE DENY
+player-decline-invitation: §c{0}'ın ada davetini reddettin.
+player-decline-your-invitation: §c{0} davetini reddetti.
+
+# ISLAND VISIT
+player-visit-island: §a{0}'ın adasına ışınlanılıyor...
+
+player-no-owner: §cBu adanın sahibi değilsiniz!
+player-leave-island: §aAdadan ayrıldınız.
+
+# OTHER ISLAND BREAK BLOCKS
+player-break: §cBaşka oyuncuların adasında blok kıramazsınız!
+player-place: §cBaşka oyuncuların adasında blok yerleştiremezsiniz!
+
+# GLOBAL
+invalid-syntax: §cYanlış kullanım, {0} kullanın.

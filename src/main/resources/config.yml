@@ -1,0 +1,70 @@
+#############################################
+#                                           #
+#   Configuration file for SimpleSkyblock   #
+#                                           #
+#############################################
+
+# General plugin settings
+general:
+
+  # Language of the plugin (location: './locales/en_US.yml')
+  # Available: en_US , de_DE
+  locale: en_US
+
+  # Name of the world where floating islands spawn
+  world: world
+
+# Island related settings
+island:
+
+  # Name of the default island schematic in folder ./schematics/******.schematic
+  schematic: island
+
+  # Distance between each island in blocks
+  # DON'T CHANGE THIS VALUE IN MID GAME /!\
+  distance: 256
+
+  # Different island extension size in blocks (island width)
+  # DON'T CHANGE THIS VALUE IN MID GAME /!\
+  extensionLevel:
+    0: 65
+    1: 129
+    2: 257
+    3: 513
+
+  # Use the plugin pvp protection
+  # Set it to false if you have another plugin managing that
+  pvpProtection: true
+
+  # Use the plugin block building, breaking and interaction protection
+  # Set it to false if you have another plugin managing that
+  buildProtection: true
+
+  # Enable spawn on island when login
+  spawnIslandLogin: true
+
+  # Enable respawn on island when player die
+  respawnIsland: true
+
+# You can set ore generator rarity here.
+oregen:
+  diamond_ore: 0.01 # 1% diamond ore chance
+  iron_ore: 0.08 # 7% iron ore chance
+  gold_ore: 0.13 # 5% gold ore chance
+  emerald_ore: 0.15 # 2% emerald ore chance
+  coal_ore: 0.20 # 5% coal ore chance
+
+# Scoreboard related settings
+scoreboard:
+  title: '&6&lSimpleSkyblock'
+
+  # You can use PlaceholderAPI placeholders if you want.
+  lines:
+    - '&a '
+    - '&fYou: &a%player_name%'
+    - '&fBiome: &a%player_biome%'
+    - '&fIsland Level: &a%ssb_islandlevel%'
+    - '&b '
+    - '&fOnline: &e%server_online%/%server_max_players%'
+    - '&c '
+    - '&7wwww.simpleskyblock.net'

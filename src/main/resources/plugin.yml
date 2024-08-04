@@ -1,0 +1,17 @@
+name: SimpleSkyblock
+version: ${project.version}
+main: com.dincertekin.simpleskyblock.SimpleSkyblock
+api-version: 1.21
+authors: [ dincertekin0 ]
+description: Skyblock plugin for Minecraft 1.21
+softdepend: [PlaceholderAPI]
+depends:
+  - FastAsyncWorldEdit
+commands:
+  island:
+    description: Island command
+    aliases: is
+  skyblockadmin:
+    permission: simpleskyblock.admin
+    description: Admin command.
+    aliases: sbadmin
